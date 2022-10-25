@@ -27,7 +27,7 @@ const scene = new THREE.Scene();
                 alpha: true
             });
 			renderer.setSize( sizes.width,  sizes.height );
-			// document.querySelector('.creater-image-container').appendChild( renderer.domElement );
+			 document.querySelector('.creater-image-container').appendChild( renderer.domElement );
 
             const shadermaterial = new THREE.ShaderMaterial( {
 

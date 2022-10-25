@@ -106,7 +106,7 @@ canvas {
            background: rgb(52,60,255);
            background: linear-gradient(180deg, rgba(52,60,255,1) 0%, rgba(0,0,0,1) 84%);
            border: 1px solid rgba(106, 111, 255, 0.85);
-           box-shadow: 0 0 110px rgb(52,60,255,0.45);
+           box-shadow: 0 0 1600px rgb(52,60,255,0.8);
            animation: shadow 3s linear infinite;
            z-index: 1;
      }
