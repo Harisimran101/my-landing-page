@@ -223,4 +223,7 @@ canvas {
           .creater-image-container img {
                height: 850px;
           }
+          .stroke-circle::before {
+             animation-play-state: paused;
+          }
      }
