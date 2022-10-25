@@ -213,6 +213,7 @@ canvas {
                 width: 700px;
                 height: 700px;
                 bottom: 0px;
+                animation-play-state: paused;
           }
 
           .creater-image-container {
