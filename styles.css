@@ -117,6 +117,7 @@ canvas {
             left: 50%;
             top: 50%;
             transform: translate(-50%,-50%);
+            transform-origin: 0% 0%;
             width: calc(100% / 1.7);
             height: calc(100% / 1.7);  
             border-radius: inherit;
@@ -169,16 +170,19 @@ canvas {
 
  @keyframes scale {
      0% {
-          scale: 1;    
+          scale: 1; 
+      
      }
 
      50% {
       scale: 0.75;   
-     }
+     
+}
 
      100% {
       scale:1;   
-     }
+  
+}
 
  }
 
